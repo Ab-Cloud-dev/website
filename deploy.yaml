@@ -14,6 +14,7 @@ spec:
       labels:
         app: my-deployment
     spec:
+      # No nodeSelector—allows scheduling on any node
       containers:
       - name: my-deployment
         image: mabd007/proj2
