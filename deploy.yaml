@@ -17,6 +17,6 @@ spec:
       # No nodeSelector—allows scheduling on any node
       containers:
       - name: my-deployment
-        image: mabd007/proj2
+        image: mabd007/website
         ports:
         - containerPort: 80
